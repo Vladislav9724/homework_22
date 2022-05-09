@@ -19,7 +19,7 @@ function imt() {
         meningPlace.innerHTML = 'недастатня маса тіла';
     } else if((index > 18.5) && (index < 25)) {
         meningPlace.innerHTML = 'норма';
-    } else if((index > 25) && (index < 30)){
+    } else if((index => 25) && (index < 30)){
         meningPlace.innerHTML = 'надмірна маса тіла';
     } else if((index > 30) && (index < 35)){
         meningPlace.innerHTML = 'ожиріння першої категорії';
